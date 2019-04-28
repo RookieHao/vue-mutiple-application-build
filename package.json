@@ -1,16 +1,10 @@
 {
   "name": "vue-multiple-application-build",
-  "version": "1.0.3",
+  "version": "1.0.7",
   "description": "build once for multiple application base in vue",
   "main": "./index.js",
   "bin": {
-    "mutiple-app": "./bin/mutiple-app.js"
-  },
-  "scripts": {
-    "runProject": "vue-cli-service serve",
-    "buildModule": "vue-cli-service build --no-clean",
-    "lintProject": "vue-cli-service lint",
-    "test:unitProject": "vue-cli-service test:unit"
+    "multiple-app": "./bin/multiple-app.js"
   },
   "repository": {
     "type": "git",
@@ -18,8 +12,8 @@
   },
   "keywords": [
     "vue",
-    "mutiple-page",
-    "mutiple-build"
+    "multiple-page",
+    "multiple-build"
   ],
   "author": "RookieHao",
   "license": "ISC",
