@@ -1,0 +1,23 @@
+{
+  "name": "vue-multiple-application-build",
+  "version": "1.0.0",
+  "description": "build once for multiple application base in vue",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RookieHao/vue-mutiple-application-build.git"
+  },
+  "keywords": [
+    "vue-mutiple\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C",
+    "page\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b["
+  ],
+  "author": "RookieHao",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RookieHao/vue-mutiple-application-build/issues"
+  },
+  "homepage": "https://github.com/RookieHao/vue-mutiple-application-build#readme"
+}
