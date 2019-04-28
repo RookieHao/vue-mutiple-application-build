@@ -2,7 +2,10 @@
   "name": "vue-multiple-application-build",
   "version": "1.0.0",
   "description": "build once for multiple application base in vue",
-  "main": "index.js",
+  "main": "./index.js",
+  "bin":{
+    "mutiple-app":"./index.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
