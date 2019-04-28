@@ -1,26 +1,34 @@
 {
   "name": "vue-multiple-application-build",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "description": "build once for multiple application base in vue",
   "main": "./index.js",
-  "bin":{
-    "mutiple-app":"./index.js"
+  "bin": {
+    "mutiple-app": "./bin/mutiple-app.js"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "runProject": "vue-cli-service serve",
+    "buildModule": "vue-cli-service build --no-clean",
+    "lintProject": "vue-cli-service lint",
+    "test:unitProject": "vue-cli-service test:unit"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/RookieHao/vue-mutiple-application-build.git"
+    "url": "https://github.com/RookieHao/vue-mutiple-application-build.git"
   },
   "keywords": [
-    "vue-mutiple\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C",
-    "page\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b["
+    "vue",
+    "mutiple-page",
+    "mutiple-build"
   ],
   "author": "RookieHao",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/RookieHao/vue-mutiple-application-build/issues"
   },
-  "homepage": "https://github.com/RookieHao/vue-mutiple-application-build#readme"
+  "homepage": "https://github.com/RookieHao/vue-mutiple-application-build#readme",
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "commander": "^2.20.0"
+  }
 }

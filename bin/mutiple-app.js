@@ -1,5 +1,7 @@
 #!/usr/bin/env node
 
-var service = require('../lib')
+let program = require('commander')
+program.parse(process.argv)
+const [mode,pageModule] = program.args
 
-service()
+require('../lib')(mode,pageModule)
