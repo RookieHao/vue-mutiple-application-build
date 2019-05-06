@@ -1,6 +1,6 @@
 {
   "name": "vue-multiple-application-build",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "build once for multiple application base in vue",
   "main": "./index.js",
   "bin": {
